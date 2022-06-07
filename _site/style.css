@@ -177,8 +177,19 @@ form .button {
    	font-weight: bold;
    	padding: 0.5rem 2rem;
    	margin-top: 1rem;
+    cursor: pointer;
 }
 
+
+form input:hover,
+form textarea:hover{
+    border:2px solid #9b9b81;
+}
+form .button:hover{
+    background:#a2745c;
+    border:2px solid #a2745c;
+    color:white;
+}
 
 
 
