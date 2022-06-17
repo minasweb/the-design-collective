@@ -191,6 +191,36 @@ form .button:hover{
     color:white;
 }
 
+/*drop down menu*/
+.dropdown{
+    position:relative;
+    display: inline-block;
+}
+.dropdown-title {
+  /*  padding: 0.25rem 0.5rem;*/
+    display: inline-block;
+   }
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: -1rem;    (on the most right element we might set it to right)
+    padding: 0.5rem;
+    display: none;
+    background-color: white;
+    z-index: 2;
+    text-align: left;
+    min-width: 10rem;
+   }
+
+/*we hover over dropdown to activate the .dropdown-content*/
+.dropdown:hover .dropdown-content {
+    display: block;
+   }
+
+.dropdown-content a {
+    display: block;
+   }
 
 
 /* Background Images */
